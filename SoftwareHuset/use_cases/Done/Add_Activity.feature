@@ -1,6 +1,7 @@
 Feature: Add Activity
 	Description: Add Activiy to project
 	Actor: User
+	Udarbejdet af Christian
 	
 Scenario: Add activtiy to existing project
 	Given an activity with name "troubleshooting" start date "01" "01" "2019" and end date "31" "12" "2019" and expected time "300"

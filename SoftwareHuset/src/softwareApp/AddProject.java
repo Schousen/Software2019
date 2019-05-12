@@ -13,6 +13,7 @@ public class AddProject {
 	private static ArrayList<User> nullUserList = new ArrayList<User>();
 	private static ArrayList<Activity> nullActivityList = new ArrayList<Activity>();
 	
+	//Udarbejdet af Anton
 	public static void addProjectToSystem(String startDay, String startMonth, String startYear,
 			String endDay, String endMonth, String endYear, String time)
 	{
@@ -35,7 +36,7 @@ public class AddProject {
 		}
 	}
 	
-
+	//Udarbejdet af Victor
 	private static boolean checkLegalInput(String startDay, String startMonth, String startYear, String endDay,
 			String endMonth, String endYear, String time) {
 		return (LegalDate.checkLegalDateFormat(startDay,startMonth,startYear)
@@ -46,7 +47,7 @@ public class AddProject {
 
 	}
 	
-	
+	//Udarbejdet af Victor
 	private static boolean checkLegalExpectedTime(String time) {
 		if (Integer.parseInt(time)>0) 
 		{

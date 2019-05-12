@@ -1,6 +1,7 @@
 Feature: Add user to activity
 	Description: Add user to an activity
 	Actor: User
+	Udarbejdet af victor
 	
 Scenario: Add user to activity succeed[1]
 	Given A user with name "LSMD" and a project with index 1 with the activity "Housewarming"

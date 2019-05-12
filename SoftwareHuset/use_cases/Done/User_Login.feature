@@ -1,6 +1,7 @@
 Feature: User login
 	Description: The user logs into the sytem
 	Actor: User
+	Udarbejdet af Anton
 	
 Scenario: user can login
 	Given a user with the user name "LSMD"

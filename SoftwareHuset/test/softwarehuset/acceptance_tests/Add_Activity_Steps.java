@@ -7,6 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import softwareApp.*;
 public class Add_Activity_Steps {
+	//Udarbejdet af Christian
 	private String activityName, startDay,startMonth,startYear,endDay,endMonth,endYear,expectedTime;
 	private String errorMessage;
 	public Add_Activity_Steps()

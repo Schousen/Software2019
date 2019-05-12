@@ -2,6 +2,7 @@ package softwarePersistence;
 import softwareDomain.*;
 import java.util.*;
 public class userManagement {
+	//Udarbejdet af Anton
 	
 	public static ArrayList<User> companyList = new ArrayList<User>();
 	

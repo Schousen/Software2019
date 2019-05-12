@@ -3,6 +3,7 @@ import softwareDomain.*;
 
 public class activityManagement 
 {
+	//Udarbejdet af Christian
 	
 	public static void addActivity(Project projectToModify, Activity activityToAdd)
 	{

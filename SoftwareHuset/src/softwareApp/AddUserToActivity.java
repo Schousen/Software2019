@@ -7,6 +7,7 @@ import softwarePersistence.userManagement;
 
 public class AddUserToActivity {
 
+	//Udarbejdet af Simon
 	public static void addUserToActivity(int projectIndex, int activityToModifyIndex, String userName)
 	{
 		User userToAdd;
@@ -31,11 +32,12 @@ public class AddUserToActivity {
 		}
 	}
 	
+	//Udarbejdet af Simon
 	public static boolean checkIfActivityExistInProject (Project projectToCheck, String activityName)
 	{
 		return projectToCheck.activities.stream().anyMatch(b-> b.name.matches(activityName));
 	}
-	
+	//Udarbejdet af Christian
 	public static int retrieveActivityIndexFromName(Project projectToCheck, String activityName)
 	{
 		for (int i=0; i<projectToCheck.activities.size(); i++)
@@ -45,7 +47,7 @@ public class AddUserToActivity {
 		}
 		return -1;
 	}
-	
+	//Udarbejdet af Christian
 	public static boolean checkIfUserIsInActivity(int projectIndex, String activityName, String username)
 	{
 		int activityIndex=retrieveActivityIndexFromName(projectManagement.projectList.get(projectIndex), activityName);

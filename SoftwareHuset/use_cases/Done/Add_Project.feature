@@ -1,6 +1,7 @@
 Feature: Add project
 	Description: Add project to system
 	Actor: User
+	Udarbejdet af Anton
 	
 Scenario: Add project succeed[1]
 	Given a new project with start date "01" "01" "2019" and end date "31" "12" "2019" and expected time "200"

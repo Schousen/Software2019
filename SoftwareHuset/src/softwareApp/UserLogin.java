@@ -1,10 +1,12 @@
 package softwareApp;
 import java.util.ArrayList;
+//Anton Schousen, Simon
 import softwareDomain.Project;
 import softwareDomain.User;
 import softwarePersistence.*;
 public class UserLogin 
 {
+	//Udarbejdet af Anton
 	private static ArrayList<Project> nullAsProjectList = new ArrayList<Project>();
 	private static ArrayList<Project> nullProjectList = new ArrayList<Project>();
 	

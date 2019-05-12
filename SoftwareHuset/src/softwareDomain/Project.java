@@ -1,6 +1,7 @@
 package softwareDomain;
 import java.util.*;
 public class Project {
+	//Udarbejdet af Simon
 	public String name;
 	public String startDate;
 	public String endDate;

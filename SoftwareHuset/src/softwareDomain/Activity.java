@@ -1,6 +1,7 @@
 package softwareDomain;
 import java.util.*;
 public class Activity {
+	//Udarbejdet af Christian
 	public String projectName;
 	public String name;
 	public String startDate;

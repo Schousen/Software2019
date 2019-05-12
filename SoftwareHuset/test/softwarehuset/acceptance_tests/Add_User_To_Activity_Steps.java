@@ -9,6 +9,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 public class Add_User_To_Activity_Steps {
+	//Udarbjdet af Victor
 	
 	private String exceptionAnswer;
 	public Add_User_To_Activity_Steps()

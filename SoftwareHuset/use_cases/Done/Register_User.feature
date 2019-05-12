@@ -1,6 +1,7 @@
 Feature: User Registration
 	Description: User is registrated to system
 	Actor: User
+	Udarbejdet af Simon
 	
 Scenario: User registration succeeds
 	Given a new user with id "ABCD"

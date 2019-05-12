@@ -4,6 +4,7 @@ import java.util.ArrayList;
 	
 public class projectManagement 
 {
+	//Udarbejdet af Victor
 	private static ArrayList<User> nullUserList = new ArrayList<User>();
 	private static User nullUser;
 	private static ArrayList<Integer> nullContributionList = new ArrayList<Integer>();

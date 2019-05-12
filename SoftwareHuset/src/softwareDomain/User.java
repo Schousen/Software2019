@@ -1,6 +1,7 @@
 package softwareDomain;
 import java.util.*;
 public class User {
+	//Udarbejdet af Victor
 	public final String USERNAME;
 	public ArrayList<Project> assignedProjects = new ArrayList<Project>();
 	public ArrayList<Project> assistingProjects = new ArrayList<Project>();

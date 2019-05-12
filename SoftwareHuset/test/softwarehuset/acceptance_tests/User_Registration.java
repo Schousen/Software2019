@@ -6,6 +6,7 @@ import cucumber.api.java.en.When;
 import softwareApp.*;
 import softwarePersistence.*;
 public class User_Registration {
+	// Udarbejdet af Simon
 
 	private String userName;
 	private String actualAnswer;

@@ -9,6 +9,7 @@ public class AddActivity {
 	public static ArrayList<User> nullUserList = new ArrayList<User>();
 	public static ArrayList<Integer> nullContributionList = new ArrayList<Integer>(); 
 	
+	//Udarbejdet Anton
 	public static void addActivityToProject(int indexOfProject, int timeEstimate, String nameOfActivity, 
 		String startDay, String startMonth, String startYear,
 		String endDay, String endMonth, String endYear)
@@ -24,7 +25,7 @@ public class AddActivity {
 			activityManagement.addActivity(projectManagement.projectList.get(indexOfProject), newActivity);
 		}
 	}
-
+	//Udarbejdet Christian
 	public static boolean checkLegalInput(int indexOfProject, int timeEstimate, String nameOfActivity, 
 			String startDay, String startMonth, String startYear,
 			String endDay, String endMonth, String endYear) 
@@ -37,18 +38,18 @@ public class AddActivity {
 				Integer.parseInt(endMonth), Integer.parseInt(endYear))));
 		
 	}
-	
+	//Udarbejdet Victor
 	public static boolean checkLegalIndex(int indexOfProject)
 	{
 		return(indexOfProject>0 && indexOfProject<projectManagement.projectList.size());
 	}
-	
+	//Udarbejdet simon
 	public static boolean checkLegalTimeEstimate(int timeEstimate)
 	{
 		return (timeEstimate>0);
 
 	}
-	
+	//Udarbejdet Christian
 	public static boolean checkActivityName(String activityName)
 	{
 		if (activityName.matches("Sickness") || activityName.matches("Holiday") || activityName.matches("Courses"))
