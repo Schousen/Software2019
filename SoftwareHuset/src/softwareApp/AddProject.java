@@ -35,6 +35,7 @@ public class AddProject {
 		}
 	}
 	
+
 	private static boolean checkLegalInput(String startDay, String startMonth, String startYear, String endDay,
 			String endMonth, String endYear, String time) {
 		return (LegalDate.checkLegalDateFormat(startDay,startMonth,startYear)
@@ -53,5 +54,4 @@ public class AddProject {
 		}
 		throw new IllegalArgumentException("The expected time to complete a project must be more than 0");
 	}
-
 }
