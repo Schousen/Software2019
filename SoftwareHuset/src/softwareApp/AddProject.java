@@ -35,5 +35,23 @@ public class AddProject {
 		}
 	}
 	
+	private static boolean checkLegalInput(String startDay, String startMonth, String startYear, String endDay,
+			String endMonth, String endYear, String time) {
+		return (LegalDate.checkLegalDateFormat(startDay,startMonth,startYear)
+				&& LegalDate.checkLegalDateFormat(endDay,endMonth,endYear) && 
+				LegalDate.checkEndLaterThanStartDate(Integer.parseInt(startDay),Integer.parseInt(startMonth)
+						,Integer.parseInt(startYear),Integer.parseInt(endDay),Integer.parseInt(endMonth)
+						,Integer.parseInt(endYear)) && checkLegalExpectedTime(time));
+
+	}
+	
+	
+	private static boolean checkLegalExpectedTime(String time) {
+		if (Integer.parseInt(time)>0) 
+		{
+			return true;
+		}
+		throw new IllegalArgumentException("The expected time to complete a project must be more than 0");
+	}
 
 }
